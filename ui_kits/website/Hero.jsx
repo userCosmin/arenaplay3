@@ -5,6 +5,10 @@ function Hero({ onNav }) {
   const { IMG } = window.APData;
   return (
     <section style={{ position: 'relative', overflow: 'hidden', background: 'var(--ap-gradient-void)' }}>
+      <video autoPlay muted loop playsInline style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0.15 }}>
+        <source src="https://pub-4e7e1030054b4b2cbda4aa2312ae0024.r2.dev/video-interior.mp4" type="video/mp4" />
+      </video>
+      <div style={{ position: 'absolute', inset: 0, background: 'linear-gradient(180deg, rgba(6,11,32,.85) 0%, rgba(6,11,32,.6) 50%, rgba(6,11,32,.85) 100%)' }} />
       <Orb color="var(--ap-primary)" size={520} style={{ top: -120, left: -100 }} />
       <Orb color="var(--ap-secondary)" size={560} style={{ top: 40, right: -160 }} />
       <Container style={{ position: 'relative', display: 'grid', gridTemplateColumns: '1.05fr 0.95fr', gap: 48, alignItems: 'center', paddingBlock: 'clamp(3rem, 7vw, 6rem)' }}>
