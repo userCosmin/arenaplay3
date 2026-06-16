@@ -1,0 +1,28 @@
+/* Arena Play — Effects: shadows, neon glows, blur, motion */
+:root {
+  /* Depth shadows (on dark, shadows are subtle; glows do the lifting) */
+  --ap-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --ap-shadow-md: 0 12px 32px rgba(0, 0, 0, 0.45);
+  --ap-shadow-lg: 0 30px 70px rgba(0, 0, 0, 0.55);
+
+  /* Neon glows — the brand's signature lift */
+  --ap-glow-primary-sm: 0 0 0 1px rgba(0, 229, 255, 0.35), 0 0 20px rgba(0, 229, 255, 0.35);
+  --ap-glow-primary-md: 0 0 0 1px rgba(0, 229, 255, 0.4), 0 0 40px rgba(0, 229, 255, 0.45);
+  --ap-glow-secondary-md: 0 0 0 1px rgba(123, 46, 255, 0.4), 0 0 40px rgba(123, 46, 255, 0.5);
+  --ap-glow-accent-md: 0 0 0 1px rgba(0, 255, 148, 0.4), 0 0 36px rgba(0, 255, 148, 0.45);
+
+  /* Inner sheen for glass panels */
+  --ap-inset-top: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+
+  /* Glass / blur */
+  --ap-blur: 18px;  /* @kind other */
+  --ap-glass: rgba(11, 16, 32, 0.62);  /* @kind color */
+  --ap-glass-border: rgba(184, 193, 217, 0.16);  /* @kind color */
+
+  /* Motion */
+  --ap-ease-out: cubic-bezier(0.16, 1, 0.3, 1);  /* @kind other */
+  --ap-ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);  /* @kind other */
+  --ap-dur-fast: 140ms;  /* @kind other */
+  --ap-dur: 240ms;  /* @kind other */
+  --ap-dur-slow: 480ms;  /* @kind other */
+}

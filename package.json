@@ -1,0 +1,11 @@
+{
+  "name": "arena-play-design-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arena Play — static design system & website UI kit (no build step required)",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp -r index.html styles.css _ds_bundle.js _ds_manifest.json components guidelines tokens ui_kits SKILL.md readme.md dist/",
+    "dev": "npx serve .",
+    "preview": "npx serve ."
+  }
+}

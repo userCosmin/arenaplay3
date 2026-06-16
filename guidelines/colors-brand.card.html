@@ -1,0 +1,21 @@
+<!-- @dsCard group="Colors" viewport="700x200" name="Brand core" subtitle="Cyan primary · violet secondary · green accent on void" -->
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { padding: 22px; }
+  .row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .sw { flex: 1 1 120px; border-radius: var(--ap-radius-md); padding: 14px; min-height: 96px;
+        display: flex; flex-direction: column; justify-content: flex-end; border: 1px solid var(--ap-border); }
+  .name { font-family: var(--ap-font-mono); font-size: 12px; letter-spacing: .04em; }
+  .hex { font-family: var(--ap-font-mono); font-size: 11px; opacity: .7; }
+  .dark { color: var(--ap-text-on-bright); }
+</style></head>
+<body>
+  <div class="row">
+    <div class="sw dark" style="background:var(--ap-primary); box-shadow: var(--ap-glow-primary-sm)"><span class="name">Primary</span><span class="hex">#00E5FF</span></div>
+    <div class="sw" style="background:var(--ap-secondary); box-shadow: var(--ap-glow-secondary-md)"><span class="name">Secondary</span><span class="hex">#7B2EFF</span></div>
+    <div class="sw dark" style="background:var(--ap-accent); box-shadow: var(--ap-glow-accent-md)"><span class="name">Accent</span><span class="hex">#00FF94</span></div>
+    <div class="sw" style="background:var(--ap-surface-1)"><span class="name">Surface</span><span class="hex">#0B1020</span></div>
+    <div class="sw" style="background:var(--ap-bg)"><span class="name">Background</span><span class="hex">#050816</span></div>
+  </div>
+</body></html>

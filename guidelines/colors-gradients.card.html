@@ -1,0 +1,24 @@
+<!-- @dsCard group="Colors" viewport="700x170" name="Gradients & glows" subtitle="Brand cyan→violet, aurora, and neon glow lifts" -->
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { padding: 22px; }
+  .row { display: flex; gap: 14px; flex-wrap: wrap; }
+  .tile { flex: 1 1 150px; height: 84px; border-radius: var(--ap-radius-md); display:flex; align-items:flex-end; padding: 10px; }
+  .lab { font-family: var(--ap-font-mono); font-size: 11px; color: #fff; mix-blend-mode: difference; }
+  .glows { display:flex; gap: 26px; margin-top: 18px; padding: 4px 8px; }
+  .orb { width: 54px; height: 54px; border-radius: 50%; background: var(--ap-surface-2); }
+</style></head>
+<body>
+  <div class="row">
+    <div class="tile" style="background:var(--ap-gradient-brand)"><span class="lab">brand</span></div>
+    <div class="tile" style="background:var(--ap-gradient-aurora)"><span class="lab">aurora</span></div>
+    <div class="tile" style="background:var(--ap-gradient-violet)"><span class="lab">violet</span></div>
+    <div class="tile" style="background:var(--ap-gradient-void)"><span class="lab">void</span></div>
+  </div>
+  <div class="glows">
+    <div class="orb" style="box-shadow:var(--ap-glow-primary-md)"></div>
+    <div class="orb" style="box-shadow:var(--ap-glow-secondary-md)"></div>
+    <div class="orb" style="box-shadow:var(--ap-glow-accent-md)"></div>
+  </div>
+</body></html>

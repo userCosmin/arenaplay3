@@ -1,0 +1,36 @@
+/* Arena Play — base element defaults built from tokens */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ap-bg);
+  color: var(--ap-text-primary);
+  font-family: var(--ap-font-body);
+  font-size: var(--ap-text-body);
+  line-height: var(--ap-lh-normal);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--ap-font-display);
+  font-weight: var(--ap-fw-bold);
+  line-height: var(--ap-lh-snug);
+  letter-spacing: var(--ap-ls-tight);
+  margin: 0;
+}
+
+p { margin: 0; }
+
+a { color: var(--ap-primary); text-decoration: none; }
+
+::selection { background: var(--ap-primary); color: var(--ap-text-on-bright); }
+
+/* Eyebrow label — uppercase mono, used above headings everywhere */
+.ap-eyebrow {
+  font-family: var(--ap-font-mono);
+  font-size: var(--ap-text-eyebrow);
+  letter-spacing: var(--ap-ls-eyebrow);
+  text-transform: uppercase;
+  color: var(--ap-primary);
+}

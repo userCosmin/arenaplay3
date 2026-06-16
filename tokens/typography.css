@@ -1,0 +1,39 @@
+/* Arena Play — Typography tokens */
+:root {
+  /* Families */
+  --ap-font-display: 'Space Grotesk', 'Segoe UI', system-ui, sans-serif;
+  --ap-font-body: 'Sora', system-ui, -apple-system, sans-serif;
+  --ap-font-mono: 'Space Mono', ui-monospace, 'SFMono-Regular', monospace;
+
+  /* Weights */
+  --ap-fw-light: 300;    /* @kind font */
+  --ap-fw-regular: 400;  /* @kind font */
+  --ap-fw-medium: 500;   /* @kind font */
+  --ap-fw-semibold: 600; /* @kind font */
+  --ap-fw-bold: 700;     /* @kind font */
+  --ap-fw-extrabold: 800;/* @kind font */
+
+  /* Fluid display scale (hero → small) */
+  --ap-text-display: clamp(2.75rem, 6vw, 5.25rem);  /* hero headline */
+  --ap-text-h1: clamp(2.25rem, 4.2vw, 3.5rem);
+  --ap-text-h2: clamp(1.75rem, 3vw, 2.5rem);
+  --ap-text-h3: clamp(1.375rem, 2vw, 1.75rem);
+  --ap-text-h4: 1.25rem;
+  --ap-text-lg: 1.125rem;
+  --ap-text-body: 1rem;
+  --ap-text-sm: 0.875rem;
+  --ap-text-xs: 0.75rem;
+  --ap-text-eyebrow: 0.8125rem;
+
+  /* Line heights */
+  --ap-lh-tight: 1.04;   /* @kind font */
+  --ap-lh-snug: 1.18;    /* @kind font */
+  --ap-lh-normal: 1.5;   /* @kind font */
+  --ap-lh-relaxed: 1.7;  /* @kind font */
+
+  /* Letter spacing */
+  --ap-ls-tight: -0.02em;  /* @kind font */
+  --ap-ls-normal: 0;       /* @kind font */
+  --ap-ls-wide: 0.04em;    /* @kind font */
+  --ap-ls-eyebrow: 0.22em; /* @kind font */
+}

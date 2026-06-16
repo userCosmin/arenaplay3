@@ -1,0 +1,30 @@
+<!-- @dsCard group="Colors" viewport="700x220" name="Surfaces & text" subtitle="Elevation ladder and text-on-dark hierarchy" -->
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { padding: 22px; }
+  .grid { display: grid; grid-template-columns: 1.4fr 1fr; gap: 18px; }
+  .stack { display: flex; flex-direction: column; gap: 8px; }
+  .bar { display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: var(--ap-radius-sm); border: 1px solid var(--ap-border); }
+  .dot { width: 26px; height: 26px; border-radius: 7px; flex: none; }
+  .name { font-family: var(--ap-font-mono); font-size: 12px; }
+  .hex { font-family: var(--ap-font-mono); font-size: 11px; color: var(--ap-text-tertiary); margin-left: auto; }
+  .t1 { color: var(--ap-text-primary); font-weight: 600; }
+  .t2 { color: var(--ap-text-secondary); }
+  .t3 { color: var(--ap-text-tertiary); }
+</style></head>
+<body>
+  <div class="grid">
+    <div class="stack">
+      <div class="bar" style="background:var(--ap-surface-0)"><span class="dot" style="background:var(--ap-surface-0);border:1px solid var(--ap-border)"></span><span class="name">surface-0 · page</span><span class="hex">#050816</span></div>
+      <div class="bar" style="background:var(--ap-surface-1)"><span class="dot" style="background:var(--ap-surface-1);border:1px solid var(--ap-border)"></span><span class="name">surface-1 · card</span><span class="hex">#0B1020</span></div>
+      <div class="bar" style="background:var(--ap-surface-2)"><span class="dot" style="background:var(--ap-surface-2)"></span><span class="name">surface-2 · raised</span><span class="hex">#131A33</span></div>
+      <div class="bar" style="background:var(--ap-surface-3)"><span class="dot" style="background:var(--ap-surface-3)"></span><span class="name">surface-3 · input</span><span class="hex">#1B2444</span></div>
+    </div>
+    <div class="stack" style="justify-content:center">
+      <span class="t1" style="font-size:20px">Text primary #FFFFFF</span>
+      <span class="t2" style="font-size:15px">Text secondary #B8C1D9</span>
+      <span class="t3" style="font-size:13px">Text tertiary #6E7896</span>
+    </div>
+  </div>
+</body></html>

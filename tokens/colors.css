@@ -1,0 +1,66 @@
+/* Arena Play — Color tokens
+   Neon-on-void palette. Cyan primary, violet secondary, green accent,
+   over a deep near-black space background. */
+:root {
+  /* ---- Brand core (from brand spec) ---- */
+  --ap-primary: #00E5FF;   /* cyan  — energy, tech, primary CTA */
+  --ap-secondary: #7B2EFF; /* violet — depth, immersion */
+  --ap-accent: #00FF94;    /* green — success, "go", highlights */
+  --ap-bg: #050816;        /* void — page background */
+  --ap-surface: #0B1020;   /* panel — cards, sheets */
+  --ap-white: #FFFFFF;
+  --ap-muted: #B8C1D9;     /* muted slate — secondary text */
+
+  /* ---- Primary cyan scale ---- */
+  --ap-primary-100: #C8FAFF;
+  --ap-primary-300: #6FF1FF;
+  --ap-primary-500: #00E5FF;
+  --ap-primary-700: #00A3B8;
+  --ap-primary-900: #064A55;
+
+  /* ---- Secondary violet scale ---- */
+  --ap-secondary-300: #B68DFF;
+  --ap-secondary-500: #7B2EFF;
+  --ap-secondary-700: #5512C2;
+  --ap-secondary-900: #2C0A6B;
+
+  /* ---- Accent green scale ---- */
+  --ap-accent-300: #7DFFC4;
+  --ap-accent-500: #00FF94;
+  --ap-accent-700: #00B869;
+
+  /* ---- Surface elevation (built from bg/surface) ---- */
+  --ap-surface-0: #050816;   /* page */
+  --ap-surface-1: #0B1020;   /* card */
+  --ap-surface-2: #131A33;   /* raised card / hover */
+  --ap-surface-3: #1B2444;   /* popover, input */
+
+  /* ---- Hairlines & borders ---- */
+  --ap-border: rgba(184, 193, 217, 0.14);
+  --ap-border-strong: rgba(184, 193, 217, 0.28);
+  --ap-border-primary: rgba(0, 229, 255, 0.45);
+  --ap-border-secondary: rgba(123, 46, 255, 0.45);
+
+  /* ---- Text ---- */
+  --ap-text-primary: #FFFFFF;
+  --ap-text-secondary: #B8C1D9;
+  --ap-text-tertiary: #6E7896;
+  --ap-text-on-bright: #050816; /* text over cyan/green fills */
+
+  /* ---- Semantic ---- */
+  --ap-success: #00FF94;
+  --ap-warning: #FFC53D;
+  --ap-danger: #FF4D6D;
+  --ap-info: #00E5FF;
+
+  /* ---- Signature gradients ---- */
+  --ap-gradient-brand: linear-gradient(120deg, #00E5FF 0%, #7B2EFF 100%); /* @kind color */
+  --ap-gradient-aurora: linear-gradient(120deg, #00FF94 0%, #00E5FF 45%, #7B2EFF 100%); /* @kind color */
+  --ap-gradient-violet: linear-gradient(135deg, #7B2EFF 0%, #2C0A6B 100%); /* @kind color */
+  --ap-gradient-void: radial-gradient(120% 120% at 50% 0%, #131A33 0%, #050816 60%); /* @kind color */
+
+  /* ---- Glow tints (for box-shadows) ---- */
+  --ap-glow-primary: rgba(0, 229, 255, 0.55);
+  --ap-glow-secondary: rgba(123, 46, 255, 0.55);
+  --ap-glow-accent: rgba(0, 255, 148, 0.5);
+}

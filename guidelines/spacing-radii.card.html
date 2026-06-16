@@ -1,0 +1,22 @@
+<!-- @dsCard group="Spacing" viewport="700x200" name="Radii & cards" subtitle="Corner radii and the standard card treatment" -->
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { padding: 24px; display:flex; gap: 26px; align-items:center; }
+  .radii { display:flex; gap: 14px; align-items:flex-end; }
+  .r { width: 60px; height: 60px; background: var(--ap-surface-2); border:1px solid var(--ap-border-strong); display:flex; align-items:flex-end; justify-content:center; }
+  .lab { font-family: var(--ap-font-mono); font-size: 10px; color: var(--ap-text-tertiary); padding-bottom:4px; }
+  .card { width: 230px; background: var(--ap-surface-1); border:1px solid var(--ap-border-primary); border-radius: var(--ap-radius-lg); box-shadow: var(--ap-glow-primary-sm), var(--ap-inset-top); padding: 16px; }
+  .card h4 { font-family: var(--ap-font-display); font-size: 16px; margin-bottom:6px; }
+  .card p { font-size: 13px; color: var(--ap-text-secondary); }
+</style></head>
+<body>
+  <div class="radii">
+    <div class="r" style="border-radius:var(--ap-radius-sm)"><span class="lab">sm 8</span></div>
+    <div class="r" style="border-radius:var(--ap-radius-md)"><span class="lab">md 14</span></div>
+    <div class="r" style="border-radius:var(--ap-radius-lg)"><span class="lab">lg 20</span></div>
+    <div class="r" style="border-radius:var(--ap-radius-xl)"><span class="lab">xl 28</span></div>
+    <div class="r" style="border-radius:var(--ap-radius-pill)"><span class="lab">pill</span></div>
+  </div>
+  <div class="card"><h4>Card hover state</h4><p>Surface-1, 20px radius, cyan-tinted hairline + neon glow.</p></div>
+</body></html>

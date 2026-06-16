@@ -1,0 +1,19 @@
+<!-- @dsCard group="Colors" viewport="700x120" name="Semantic" subtitle="Success, warning, danger, info" -->
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { padding: 22px; }
+  .row { display:flex; gap:14px; }
+  .sw { flex:1; border-radius: var(--ap-radius-md); padding: 14px; min-height:64px; display:flex; flex-direction:column; justify-content:flex-end; }
+  .name { font-family: var(--ap-font-mono); font-size: 12px; }
+  .hex { font-family: var(--ap-font-mono); font-size: 11px; opacity:.75; }
+  .dark { color: var(--ap-text-on-bright); }
+</style></head>
+<body>
+  <div class="row">
+    <div class="sw dark" style="background:var(--ap-success)"><span class="name">success</span><span class="hex">#00FF94</span></div>
+    <div class="sw dark" style="background:var(--ap-warning)"><span class="name">warning</span><span class="hex">#FFC53D</span></div>
+    <div class="sw" style="background:var(--ap-danger)"><span class="name">danger</span><span class="hex">#FF4D6D</span></div>
+    <div class="sw dark" style="background:var(--ap-info)"><span class="name">info</span><span class="hex">#00E5FF</span></div>
+  </div>
+</body></html>
